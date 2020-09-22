@@ -1,0 +1,11 @@
+<div class="container">
+  <!-- <img [src]="urlPhoto"> -->
+   <div class="titulo">Titulo repositorio: {{tituloRepositorio}} </div>
+<ng-container *ngIf="mostrar" >
+  <div class="lenguaje">Lenguaje principal: {{lenguaje}} </div>
+   <div class="descripcion">Descripcion: {{descripcion}} </div>
+</ng-container>
+
+<button (click)="toogle()" >{{info}} informacion</button>
+ </div>
+
