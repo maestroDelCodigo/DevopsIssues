@@ -8,6 +8,7 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PaginaPerfilUsuarioComponent } from './pagina-perfil-usuario/pagina-perfil-usuario.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     PerfilUsuarioComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    PaginaPerfilUsuarioComponent
 
   ],
   imports: [
