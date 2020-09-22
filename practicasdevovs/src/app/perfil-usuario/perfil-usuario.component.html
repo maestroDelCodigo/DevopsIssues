@@ -1,7 +1,12 @@
 <div>
-  <div class="urlphoto"></div>
-  <div class="nickname"></div>
-  <div class="name"></div>
-<div class="companies"></div>
-<div class="newImage"></div>
+ <!-- <img [src]="urlPhoto"> -->
+  <div class="nickname">Nick: {{nickName}} </div>
+  <div class="name">Nombre: {{name}} </div>
+<div class="companies">Empresas:
+  <ul *ngFor="let empresa of companies" >
+    <li>{{empresa}}</li>
+  </ul>
+</div>
+<img [src]="urlPhoto" height="200"> <br/>
+<input type='file' (change)="onSelectFile($event)">
 </div>

@@ -13,9 +13,27 @@ export class PerfilUsuarioComponent implements OnInit {
   @Input() companies: string[];
   @Output() newImage = new EventEmitter<string>();
 
-  constructor() { }
+
+  constructor() {
+
+   }
 
   ngOnInit(): void {
+
+
+  }
+
+  onSelectFile(event: any): void { // called each time file input changes
+    if (event.target.files && event.target.files[0]) {
+      const reader = new FileReader();
+
+      reader.readAsDataURL(event.target.files[0]); // read file as data url
+
+      reader.onload = (event: any) => { // called once readAsDataURL is completed
+        // this.urlPhoto = event.target.result as string;
+        this.newImage.emit(event.target.result as string);
+      }
+    }
   }
 
 }
