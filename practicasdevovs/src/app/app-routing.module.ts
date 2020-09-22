@@ -18,7 +18,8 @@ const routes: Routes = [
   {
 
     path: 'contactos', component: ContactosComponent,
-
+  },
+  {
     path: 'repositorios', component: PaginaRepositoriosComponent,
 
   }

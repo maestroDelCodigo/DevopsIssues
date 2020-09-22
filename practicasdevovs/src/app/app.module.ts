@@ -27,7 +27,7 @@ import { PaginaRepositoriosComponent } from './pagina-repositorios/pagina-reposi
     PaginaPerfilUsuarioComponent,
 
     ContactosComponent,
-    ContactosGridComponent
+    ContactosGridComponent,
 
     InfoRepositorioComponent,
     PaginaRepositoriosComponent
