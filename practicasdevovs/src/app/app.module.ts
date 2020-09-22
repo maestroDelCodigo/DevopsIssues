@@ -9,8 +9,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PaginaPerfilUsuarioComponent } from './pagina-perfil-usuario/pagina-perfil-usuario.component';
+
+import { ContactosComponent } from './contactos/contactos.component';
+import { ContactosGridComponent } from './contactos/contactos-grid/contactos-grid.component';
+
 import { InfoRepositorioComponent } from './info-repositorio/info-repositorio.component';
 import { PaginaRepositoriosComponent } from './pagina-repositorios/pagina-repositorios.component';
+
 
 
 @NgModule({
@@ -20,8 +25,13 @@ import { PaginaRepositoriosComponent } from './pagina-repositorios/pagina-reposi
     HeaderComponent,
     HomeComponent,
     PaginaPerfilUsuarioComponent,
+
+    ContactosComponent,
+    ContactosGridComponent
+
     InfoRepositorioComponent,
     PaginaRepositoriosComponent
+
 
   ],
   imports: [
