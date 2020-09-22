@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PaginaPerfilUsuarioComponent } from './pagina-perfil-usuario/pagina-perfil-usuario.component';
+import { ContactosComponent } from './contactos/contactos.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { PaginaPerfilUsuarioComponent } from './pagina-perfil-usuario/pagina-per
     PerfilUsuarioComponent,
     HeaderComponent,
     HomeComponent,
-    PaginaPerfilUsuarioComponent
+    PaginaPerfilUsuarioComponent,
+    ContactosComponent
 
   ],
   imports: [
