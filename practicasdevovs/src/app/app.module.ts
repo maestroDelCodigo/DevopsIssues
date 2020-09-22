@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PaginaPerfilUsuarioComponent } from './pagina-perfil-usuario/pagina-perfil-usuario.component';
 import { ContactosComponent } from './contactos/contactos.component';
+import { ContactosGridComponent } from './contactos/contactos-grid/contactos-grid.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ContactosComponent } from './contactos/contactos.component';
     HeaderComponent,
     HomeComponent,
     PaginaPerfilUsuarioComponent,
-    ContactosComponent
+    ContactosComponent,
+    ContactosGridComponent
 
   ],
   imports: [

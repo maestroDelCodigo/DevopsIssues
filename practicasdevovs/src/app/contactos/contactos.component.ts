@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contactos.component.scss']
 })
 export class ContactosComponent implements OnInit {
-
+  followers = ['Perico los palotes', 'Maestro del Codigo', 'Bahamontes'];
+  bios = ['Es un fanatico de portales oscuros', 'El megacrack mundial, contratadle', 'Una leyenda viva(de momento)']
+  lenguaje= ['Typescript', 'Tol que te se ponga por delante', 'Javascript']
   constructor() { }
 
   ngOnInit(): void {
