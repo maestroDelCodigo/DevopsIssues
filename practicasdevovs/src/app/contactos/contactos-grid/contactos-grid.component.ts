@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ContactosGridComponent implements OnInit {
 @Input() followers: string[]; 
 @Input() bios: string[];
-@Input() lenguaje: string[];
+@Input() lenguajes: string[];
   constructor() { }
 
   ngOnInit(): void {
