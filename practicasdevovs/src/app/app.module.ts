@@ -7,20 +7,20 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-
-    PerfilUsuarioComponent
-
+    PerfilUsuarioComponent,
     HeaderComponent,
     HomeComponent
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-
+import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
 const routes: Routes = [
   {
     path: '', pathMatch: 'full', redirectTo: 'home'
@@ -9,9 +9,9 @@ const routes: Routes = [
   {
     path: 'home', component: HomeComponent,
   },
-//   {
-//       path: 'perfil', component: PerfilUsuario,
-//   }
+  {
+    path: 'perfil', component: PerfilUsuarioComponent,
+  }
 ];
 
 @NgModule({
